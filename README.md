@@ -37,7 +37,7 @@ d: Number [33-34)
 [7 0 3 0 0 6 0 1 8 5 5 7 9 2 0 3 0 8 1 0 3 7 3 4 3 2 9 9 9 0 0 3 6 4]
 ```
 
-`NV`s behave just like the usual vectorization of the defined terms
+`NV`s correspond to the usual vectorization of the defined terms
 ```python
 v = np.concatenate([a.flatten(), b.flatten(), c.flatten(), [d]])
 >>> np.array_equal(x, v)
